@@ -1,0 +1,6 @@
+confluent_kafka
+python-dotenv
+praw
+faker
+findspark
+psycopg2-binary

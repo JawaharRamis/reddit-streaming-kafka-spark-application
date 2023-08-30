@@ -1,0 +1,1 @@
+docker cp ktech_spark_submit:\opt\bitnami\spark\logs\consumer.log  .\logs\consumer.log
