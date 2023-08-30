@@ -60,6 +60,7 @@ reddit-data-pipeline/
 - Configure your Reddit API credentials in `.env`.
 - Update Kafka and Spark configurations in `docker-compose.yml`.
 - Update PostgreSQL connection properties in `spark_consumer.py`.
+- Update subreddit to explore in `.env`.
 
 ## Project Components and Interaction
 
