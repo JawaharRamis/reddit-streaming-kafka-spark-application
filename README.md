@@ -11,8 +11,6 @@ This project is designed to collect data from Reddit using the Reddit API, proce
 - [Project Components and Interaction](#project-components-and-interaction)
 - [Workflow Overview](#workflow-overview)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 ## Prerequisites
@@ -121,10 +119,4 @@ Overall, this architecture allows data to flow seamlessly from Reddit to Kafka, 
 
 Contributions are welcome! Please fork the repository and create a pull request.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to modify and expand upon this template to suit your project's specific details and requirements.
