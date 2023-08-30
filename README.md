@@ -1,6 +1,3 @@
-# reddit-streaming-kafka-spark-application
-Certainly! Here's a template for a `README.md` file for your project:
-
 # Reddit Data Pipeline Project
 
 This project is designed to collect data from Reddit using the Reddit API, process it using Apache Kafka and Apache Spark, and store the results in a PostgreSQL database. It involves a data pipeline that consists of a Kafka producer, Spark streaming consumer, and PostgreSQL sink.
