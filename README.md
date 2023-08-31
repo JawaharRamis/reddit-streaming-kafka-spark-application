@@ -68,6 +68,7 @@ reddit-data-pipeline/
    - Responsible for collecting data (post details) from Reddit using the PRAW library.
    - Formats the data into JSON messages and produces them to the Kafka topics ("reddit-submissions").
    - Interacts with the Kafka broker to publish messages for downstream processing.
+   - By design choice, publisher is executed outside the docker container.
 
 2. **Kafka:**
    - Acts as a message broker that handles the communication between the Producer and Consumer.
@@ -110,11 +111,6 @@ Overall, this architecture allows data to flow seamlessly from Reddit to Kafka, 
    python producer/producer.py
    ```
 
-3. Run the Spark consumer to process data and push to PostgreSQL:
-
-   ```bash
-   docker-compose run --rm spark-submit
-   ```
 
 ## Contributing
 
