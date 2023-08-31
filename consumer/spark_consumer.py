@@ -1,6 +1,6 @@
 import sys
 # append the path of the parent directory
-sys.path.append("..")
+sys.path.append("/app")
 
 
 from pyspark.sql import SparkSession, Row

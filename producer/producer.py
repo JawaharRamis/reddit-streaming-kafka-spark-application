@@ -1,7 +1,6 @@
 import sys
 # append the path of the parent directory
-sys.path.append("..")
-
+sys.path.append("./")
 
 from confluent_kafka import Producer
 # from kafka import KafkaProducer
