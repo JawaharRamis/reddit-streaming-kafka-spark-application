@@ -1,3 +1,8 @@
+import sys
+# append the path of the parent directory
+sys.path.append("..")
+
+
 from pyspark.sql import SparkSession, Row
 from pyspark.sql.window import Window
 from pyspark.sql.functions import *

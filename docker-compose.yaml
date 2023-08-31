@@ -60,7 +60,7 @@ services:
     volumes:
       - ./:/app/
       - ./packages/postgresql-42.5.4.jar:/opt/bitnami/spark/jars/postgresql-42.5.4.jar
-    command: ["sh", "-c", "pip install -r /app/requirements.txt && spark-submit --jars /opt/bitnami/spark/jars/postgresql-42.5.4.jar --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.3 --master spark://spark-master:7077 /app/spark_consumer.py"]
+    command: ["sh", "-c", "pip install -r /app/requirements.txt && spark-submit --jars /opt/bitnami/spark/jars/postgresql-42.5.4.jar --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.3 --master spark://spark-master:7077 /app/consumer/spark_consumer.py"]
     # ["spark-submit", "--packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.3","--master", "spark://spark-master:7077", "/app/spark_consumer.py"]
     depends_on:
       - spark-master
